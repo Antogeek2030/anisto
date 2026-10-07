@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout title="Contact | Roof Inspection Anniston AL" description="Contact Roof Inspection Anniston AL. Call (256) 555-0199. Located at 303 S Quintard Ave #3, Anniston, AL 36201.">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Contact</div>
+      <h1>Contact Us</h1>
+      <p>Ready to schedule a professional roof inspection in Anniston? Call or reach out below.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="two-col">
+        <div class="content-block" style="margin:0">
+          <h2>Get in Touch</h2>
+          <p><strong>Phone:</strong> <a href={`tel:${phone}`} style="color:var(--primary)">{phoneDisplay}</a></p>
+          <p><strong>Address:</strong><br />303 S Quintard Ave #3<br />Anniston, AL 36201</p>
+          <p><strong>Hours:</strong> Monday–Saturday, 7:00 AM – 7:00 PM</p>
+          <p style="margin-top:1.5rem">We typically respond the same business day and can often schedule inspections within a few days.</p>
+        </div>
+        <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border);min-height:280px">
+          <iframe width="100%" height="280" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-85.85%2C33.63%2C-85.81%2C33.68&amp;layer=mapnik&amp;marker=33.6598%2C-85.8316"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout title="Storm Damage Roof Inspection Anniston AL" description="Storm damage to your roof in Anniston? Get a professional inspection with photo documentation for insurance and repairs.">
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">URGENT</div>
+      <h1>Storm <span>Damage</span></h1>
+      <p class="hero-desc">Hail, high winds, and debris can compromise your roof even when damage isn’t obvious from the ground. Document it promptly.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Schedule Storm Inspection</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <p style="max-width:700px;margin:0 auto;color:var(--text-muted)">We assess and photograph hail marks, wind-lifted shingles, damaged flashing, and other storm-related issues so you have clear documentation for insurance or repair planning.</p>
+    </div>
+  </section>
+  <section class="section section-alt" style="text-align:center">
+    <div class="container"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></div>
+  </section>
+</Layout>

@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout 
+  title="Roof Leak Detection Anniston, AL"
+  description="Roof leak detection in Anniston. Locate active and potential leak sources with professional inspection and clear recommendations."
+>
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">PROBLEM SOLVING</div>
+      <h1>Roof Leak Detection <span>in Anniston</span></h1>
+      <p class="hero-sub">Find the source. Stop the damage.</p>
+      <p class="hero-desc">Water stains, musty smells, or active drips need attention. We inspect the roof system to locate likely leak sources and recommend next steps.</p>
+      <div class="hero-ctas">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header"><h2>Common Leak Sources We Check</h2></div>
+      <div class="features-grid">
+        <div class="feature-card"><h3>Flashing</h3><p>Chimneys, walls, vents, skylights</p></div>
+        <div class="feature-card"><h3>Valleys</h3><p>Water concentration points</p></div>
+        <div class="feature-card"><h3>Penetrations</h3><p>Pipes, vents, satellite mounts</p></div>
+        <div class="feature-card"><h3>Decking &amp; Attic</h3><p>Moisture trails and damage signs</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" style="text-align:center">
+    <div class="container">
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+</Layout>

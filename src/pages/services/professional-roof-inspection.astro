@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout 
+  title="Professional Roof Inspection in Anniston, AL | Detailed Reports"
+  description="Comprehensive professional roof inspection in Anniston, AL. Full exterior and attic evaluation, photo documentation, and written condition report."
+>
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">CORE SERVICE</div>
+      <h1>Professional Roof Inspection <span>in Anniston</span></h1>
+      <p class="hero-sub">Thorough evaluation. Clear written report. Photo documentation.</p>
+      <p class="hero-desc">A professional roof inspection gives you the facts about your roof’s condition — so you can plan repairs, support insurance claims, or buy/sell with confidence.</p>
+      <div class="hero-ctas">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+        <a href="/contact/" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What’s Included in a <span>Professional Inspection</span></h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Exterior Assessment</h3>
+          <p>Shingles or other covering, ridges, hips, valleys, flashing, penetrations, vents, and overall surface condition.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏠</div>
+          <h3>Attic Review</h3>
+          <p>When accessible: decking condition, moisture signs, ventilation, insulation, and evidence of past or active leaks.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📸</div>
+          <h3>Photo Documentation</h3>
+          <p>Clear photos of findings so you can see exactly what was observed and share the report with others if needed.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📄</div>
+          <h3>Written Condition Report</h3>
+          <p>Prioritized recommendations, remaining service life guidance, and plain-language explanations of findings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container" style="text-align:center">
+      <h2 style="margin-bottom:1rem">Ready to Know the Condition of Your Roof?</h2>
+      <p style="color:var(--text-muted);margin-bottom:1.5rem">Call us today to schedule a professional roof inspection in Anniston.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+</Layout>

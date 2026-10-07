@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout 
+  title="Insurance Claim Roof Inspection Anniston, AL"
+  description="Independent roof inspection for insurance claims in Anniston. Clear documentation, photos, and written findings to support your claim."
+>
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">CLAIMS SUPPORT</div>
+      <h1>Insurance Claim Inspection <span>Anniston</span></h1>
+      <p class="hero-sub">Independent assessment. Clear documentation.</p>
+      <p class="hero-desc">When you need professional documentation for an insurance claim, we provide an independent, detailed roof inspection with photos and a written report focused on accurate findings.</p>
+      <div class="hero-ctas">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header"><h2>How We Support <span>Your Claim</span></h2></div>
+      <div class="features-grid">
+        <div class="feature-card"><div class="feature-icon">📸</div><h3>Photo Evidence</h3><p>Systematic photos of damage areas for your records and insurer review.</p></div>
+        <div class="feature-card"><div class="feature-icon">📝</div><h3>Written Findings</h3><p>Clear descriptions of observed damage without pressure or overstatement.</p></div>
+        <div class="feature-card"><div class="feature-icon">🗺️</div><h3>Damage Mapping</h3><p>Location-based notes so the scope of issues is easy to understand.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" style="text-align:center">
+    <div class="container">
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+</Layout>

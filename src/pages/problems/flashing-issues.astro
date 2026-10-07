@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout title="Flashing Problems | Roof Inspection Anniston" description="Flashing issues around chimneys, vents, or walls? Professional roof inspection in Anniston to identify and document problems.">
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">ADDRESS SOON</div>
+      <h1>Flashing <span>Problems</span></h1>
+      <p class="hero-desc">Gaps, rust, or separation at chimneys, vents, valleys, and wall junctions are among the most common leak sources.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <p style="max-width:700px;margin:0 auto;color:var(--text-muted)">We carefully inspect all flashing details during a full roof evaluation and note any deficiencies that could allow water entry.</p>
+    </div>
+  </section>
+  <section class="section section-alt" style="text-align:center">
+    <div class="container"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></div>
+  </section>
+</Layout>

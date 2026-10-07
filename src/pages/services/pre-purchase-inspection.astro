@@ -1,0 +1,40 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout 
+  title="Pre-Purchase Roof Inspection Anniston, AL"
+  description="Pre-purchase roof inspection in Anniston. Know the true condition before you buy. Remaining life estimates and repair prioritization."
+>
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">BUYING OR SELLING</div>
+      <h1>Pre-Purchase Roof Inspection <span>Anniston</span></h1>
+      <p class="hero-sub">Buy with confidence. Know the roof’s true condition.</p>
+      <p class="hero-desc">A pre-purchase roof inspection helps buyers avoid surprises and gives sellers clear documentation. Remaining service life and prioritized repair guidance included.</p>
+      <div class="hero-ctas">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header"><h2>What You Receive</h2></div>
+      <ul style="max-width:600px;margin:0 auto;display:grid;gap:0.75rem">
+        <li>✓ Full exterior and attic (when accessible) evaluation</li>
+        <li>✓ Photo documentation of findings</li>
+        <li>✓ Remaining service life guidance</li>
+        <li>✓ Prioritized repair vs. maintenance recommendations</li>
+        <li>✓ Written report suitable for negotiations</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" style="text-align:center">
+    <div class="container">
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout 
+  title="Roof Maintenance Inspection Anniston, AL"
+  description="Preventive roof maintenance inspection in Anniston. Catch small issues early and extend the life of your roofing system."
+>
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">PREVENTIVE</div>
+      <h1>Maintenance Roof Inspection <span>Anniston</span></h1>
+      <p class="hero-sub">Catch small issues before they become big ones.</p>
+      <p class="hero-desc">Regular professional inspections help extend roof life and avoid emergency repairs. Ideal as an annual or bi-annual check-up.</p>
+      <div class="hero-ctas">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header"><h2>Why Schedule Routine Inspections?</h2></div>
+      <p style="max-width:700px;margin:0 auto 1.5rem;text-align:center;color:var(--text-muted)">Small problems — loose flashing, early granule loss, minor clogged gutters — are far cheaper to address early. A maintenance inspection gives you a clear snapshot and a simple action list.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" style="text-align:center">
+    <div class="container">
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout title="About Us | Roof Inspection Anniston AL" description="Local professional roof inspection specialists serving Anniston and Calhoun County. Thorough inspections, detailed reports, honest assessments.">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → About Us</div>
+      <h1>About Roof Inspection Anniston</h1>
+      <p>Local inspectors focused on one thing: giving Anniston and Calhoun County homeowners a clear, honest picture of their roof’s condition.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Who We Are</h2>
+      <p>We provide professional residential roof inspections in Anniston and surrounding communities. Our focus is thorough evaluation, clear photo documentation, and written reports that homeowners, buyers, sellers, and insurance adjusters can rely on.</p>
+      <h2>How We Work</h2>
+      <ul>
+        <li><strong>Thorough process</strong> — Exterior slopes, flashing, penetrations, gutters, and attic (when accessible).</li>
+        <li><strong>Photo documentation</strong> — Clear images of findings included in every report.</li>
+        <li><strong>Plain-language reports</strong> — Prioritized recommendations without pressure or sales tactics.</li>
+        <li><strong>Local knowledge</strong> — Familiar with Alabama weather impacts, common materials, and local housing stock.</li>
+      </ul>
+      <h2>Our Commitment</h2>
+      <p>We believe homeowners deserve accurate information. Whether the roof is in good shape or needs attention, we tell you what we find and why it matters. No upselling, no inflated findings.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

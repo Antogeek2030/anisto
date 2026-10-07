@@ -1,0 +1,41 @@
+---
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Roof Inspection Anniston</h4>
+        <p>Professional roof inspection services serving Anniston and Calhoun County. Detailed reports, storm damage assessment, and insurance support.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="/services/professional-roof-inspection/">Professional Inspection</a></p>
+        <p><a href="/services/storm-damage-inspection/">Storm Damage</a></p>
+        <p><a href="/services/insurance-claim-inspection/">Insurance Claims</a></p>
+        <p><a href="/services/pre-purchase-inspection/">Pre-Purchase</a></p>
+        <p><a href="/services/maintenance-inspection/">Maintenance</a></p>
+      </div>
+      <div>
+        <h4>Common Problems</h4>
+        <p><a href="/problems/missing-shingles/">Damaged Shingles</a></p>
+        <p><a href="/problems/roof-leaks/">Roof Leaks</a></p>
+        <p><a href="/problems/storm-damage/">Storm Damage</a></p>
+        <p><a href="/problems/sagging-roof/">Sagging Roof</a></p>
+        <p><a href="/problems/flashing-issues/">Flashing Issues</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href={`tel:${phone}`}>{phoneDisplay}</a></p>
+        <p>303 S Quintard Ave #3<br />Anniston, AL 36201</p>
+        <p>Mon–Sat 7am–7pm</p>
+        <p style="margin-top:0.75rem"><a href="/service-areas/">Service Areas</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} Roof Inspection Anniston AL. All rights reserved. | <a href="/privacy/">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>

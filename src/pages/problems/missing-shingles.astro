@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout title="Missing or Damaged Shingles | Roof Inspection Anniston" description="Missing or damaged shingles in Anniston? Schedule a professional roof inspection to assess extent and recommend repairs.">
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">URGENT</div>
+      <h1>Missing or Damaged <span>Shingles</span></h1>
+      <p class="hero-desc">Missing, curled, cracked, or granule-loss shingles leave your roof exposed. A professional inspection identifies the full extent and prioritizes repairs.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <p style="max-width:700px;margin:0 auto;color:var(--text-muted)">Wind, age, and hail commonly cause shingle damage in Alabama. Even a few missing shingles can allow water into the decking. We document the condition and give clear next-step recommendations.</p>
+    </div>
+  </section>
+  <section class="section section-alt" style="text-align:center">
+    <div class="container"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></div>
+  </section>
+</Layout>

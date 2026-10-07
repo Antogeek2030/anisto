@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout title="Service Areas | Roof Inspection Anniston & Calhoun County" description="Roof inspection service areas: Anniston, Oxford, Jacksonville, Weaver, Hobson City and surrounding Calhoun County communities.">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> → Service Areas</div>
+      <h1>Areas We Serve</h1>
+      <p>Based in Anniston, we provide professional roof inspections throughout Calhoun County and nearby communities.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-block">
+      <h2>Primary Service Area</h2>
+      <p>We focus on Anniston and the surrounding communities where we can provide timely, high-quality inspections:</p>
+      <ul>
+        <li>Anniston</li>
+        <li>Oxford</li>
+        <li>Jacksonville</li>
+        <li>Weaver</li>
+        <li>Hobson City</li>
+        <li>Saks</li>
+        <li>Choccolocco</li>
+        <li>Surrounding Calhoun County areas</li>
+      </ul>
+      <p style="margin-top:1.5rem">Not sure if we cover your location? Call us — we may be able to accommodate nearby addresses.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

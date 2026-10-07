@@ -1,0 +1,295 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge">● ANNISTON &amp; CALHOUN COUNTY · PROFESSIONAL ROOF INSPECTIONS</div>
+        <h1>ROOF INSPECTION<br />IN <span>ANNISTON</span></h1>
+        <p class="hero-sub">Thorough. Honest. Detailed Reports.</p>
+        <p class="hero-desc">Protect your home with a professional roof inspection in Anniston. Our certified inspectors provide comprehensive evaluations, photo documentation, and clear written reports — so you know exactly what your roof needs.</p>
+        <div class="hero-tags">
+          <span class="hero-tag">📋 Detailed Written Report</span>
+          <span class="hero-tag">🛡 Licensed &amp; Insured</span>
+          <span class="hero-tag">✓ Photo Documentation</span>
+          <span class="hero-tag">📞 Same-Week Scheduling</span>
+          <span class="hero-tag">🏠 Local to Anniston</span>
+        </div>
+        <div class="hero-ctas">
+          <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+          <a href={`tel:${phone}`} class="btn btn-outline">Get a Quote</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-icon">🏠</div>
+          <h3>Need a Roof Check?</h3>
+          <p>We inspect shingles, flashing, valleys, attic, gutters, and more — delivering a clear condition report with photos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section section-alt" id="why">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Anniston Homeowners <span>Choose Us</span></h2>
+        <p>Alabama weather takes a toll on roofs. When you need a clear picture of your roof’s condition, you want a local specialist who is thorough, honest, and provides documentation you can trust.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Detailed Written Reports</h3>
+          <p>Every inspection includes a clear written report with photos of findings, prioritized recommendations, and estimated remaining service life.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📜</div>
+          <h3>Licensed &amp; Insured</h3>
+          <p>Our inspectors are fully licensed and insured. We follow industry best practices for residential and light commercial roof assessments.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Fast Scheduling</h3>
+          <p>Most inspections in Anniston and surrounding areas can be scheduled within a few business days — often same-week.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>Local to Anniston</h3>
+          <p>Based in Anniston — we know local housing stock, common roofing materials, and the impact of Alabama storms and humidity.</p>
+        </div>
+      </div>
+      <div style="display:flex;gap:2rem;justify-content:center;margin-top:2.5rem;flex-wrap:wrap;text-align:center">
+        <div><strong style="font-size:1.75rem;color:var(--primary)">45–90</strong><br /><span style="color:var(--text-muted)">Min. Inspection</span></div>
+        <div><strong style="font-size:1.75rem;color:var(--primary)">Photo</strong><br /><span style="color:var(--text-muted)">Documentation</span></div>
+        <div><strong style="font-size:1.75rem;color:var(--primary)">Written</strong><br /><span style="color:var(--text-muted)">Condition Report</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signs -->
+  <section class="section" id="signs">
+    <div class="container">
+      <div class="section-header">
+        <h2>Recognize These <span>Signs?</span></h2>
+        <p>Storms, age, and weather accelerate roof wear in Anniston. If your home shows any of these symptoms, schedule an inspection soon.</p>
+      </div>
+      <div class="problems-grid">
+        <a href="/problems/missing-shingles/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>Missing or Damaged Shingles</h3>
+          <p>Missing, curled, or cracked shingles leave your roof vulnerable to water intrusion. Inspect before the next storm.</p>
+        </a>
+        <a href="/problems/roof-leaks/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>Roof Leaks</h3>
+          <p>Water stains, musty odors, or active drips signal a breach. Find and fix the source before interior damage spreads.</p>
+        </a>
+        <a href="/problems/storm-damage/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-urgent">Urgent</span>
+          <h3>Storm Damage</h3>
+          <p>Hail, high winds, and fallen limbs can compromise shingles, flashing, and structure. Document damage for insurance.</p>
+        </a>
+        <a href="/problems/sagging-roof/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Sagging Roof</h3>
+          <p>Visible sagging may indicate structural issues, water damage, or overloaded decking. Get a professional assessment.</p>
+        </a>
+        <a href="/problems/flashing-issues/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Flashing Problems</h3>
+          <p>Gaps or rust at chimneys, vents, valleys, and walls are common leak points. Early detection prevents costly repairs.</p>
+        </a>
+        <a href="/problems/gutter-issues/" class="problem-card" style="display:block">
+          <span class="problem-badge badge-soon">Address Soon</span>
+          <h3>Gutter Issues</h3>
+          <p>Clogged, damaged, or poorly pitched gutters can cause water backup and foundation problems. We check the full system.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services preview -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Expert Roof <span>Inspection Services</span></h2>
+        <p>Every roof tells a story. Our certified inspectors evaluate the full system and deliver clear, actionable findings.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-label">Core Service</span>
+          <h3>Professional Roof Inspection</h3>
+          <p>Comprehensive visual and attic inspection with photo documentation and a written condition report.</p>
+          <ul>
+            <li>Full exterior &amp; attic check</li>
+            <li>Photo documentation</li>
+            <li>Prioritized recommendations</li>
+          </ul>
+          <a href="/services/professional-roof-inspection/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">After Storms</span>
+          <h3>Storm Damage Inspection</h3>
+          <p>Document hail, wind, and impact damage for insurance claims with clear photos and descriptions.</p>
+          <ul>
+            <li>Hail &amp; wind assessment</li>
+            <li>Insurance-ready reports</li>
+            <li>Fast post-storm scheduling</li>
+          </ul>
+          <a href="/services/storm-damage-inspection/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Claims Support</span>
+          <h3>Insurance Claim Inspection</h3>
+          <p>Independent assessment to support or verify insurance claims with professional documentation.</p>
+          <ul>
+            <li>Detailed damage mapping</li>
+            <li>Clear written findings</li>
+            <li>Photo evidence package</li>
+          </ul>
+          <a href="/services/insurance-claim-inspection/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Buying/Selling</span>
+          <h3>Pre-Purchase Roof Inspection</h3>
+          <p>Know the true condition before you buy. Remaining-life estimates and repair prioritization included.</p>
+          <ul>
+            <li>Buyer &amp; seller friendly</li>
+            <li>Remaining service life</li>
+            <li>Written report for negotiations</li>
+          </ul>
+          <a href="/services/pre-purchase-inspection/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Problem Solving</span>
+          <h3>Roof Leak Detection</h3>
+          <p>Locate active and potential leak sources — flashing, valleys, penetrations, and deck issues.</p>
+          <ul>
+            <li>Interior &amp; exterior review</li>
+            <li>Source isolation</li>
+            <li>Repair recommendations</li>
+          </ul>
+          <a href="/services/leak-detection/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+        <div class="service-card">
+          <span class="service-label">Preventive</span>
+          <h3>Maintenance Inspection</h3>
+          <p>Annual or bi-annual checks to catch small issues early and extend the life of your roofing system.</p>
+          <ul>
+            <li>Routine condition check</li>
+            <li>Maintenance checklist</li>
+            <li>Peace of mind report</li>
+          </ul>
+          <a href="/services/maintenance-inspection/" class="btn btn-outline-dark">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <h2>How Our Roof <span>Inspection Works</span></h2>
+        <p>A structured, transparent process from first call to final report.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <div>
+            <h3>Schedule Your Inspection</h3>
+            <p>Call or message us. We confirm a convenient time — most Anniston inspections are scheduled within a few business days.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <div>
+            <h3>On-Site Evaluation</h3>
+            <p>Our inspector examines every accessible slope, flashing, penetrations, gutters, and the attic (when accessible). Photos are taken of all findings.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <div>
+            <h3>Clear Findings Review</h3>
+            <p>We walk you through what was found in plain language. You receive a written estimate of recommended next steps if repairs are needed.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <div>
+            <h3>Written Report Delivered</h3>
+            <p>A professional condition report with photos, prioritized recommendations, and remaining service life guidance is provided for your records.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section class="section section-alt" id="location">
+    <div class="container">
+      <div class="section-header">
+        <h2>Find Us in <span>Anniston, AL</span></h2>
+        <p>Proudly serving Anniston and all of Calhoun County from South Quintard Avenue.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start">
+        <div>
+          <h3 style="margin-bottom:0.75rem">📍 303 S Quintard Ave #3, Anniston, AL 36201</h3>
+          <p style="color:var(--text-muted);margin-bottom:1rem">Serving Anniston · Oxford · Jacksonville · Weaver · Hobson City · and surrounding communities.</p>
+          <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+        </div>
+        <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border);min-height:280px">
+          <iframe width="100%" height="280" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-85.85%2C33.63%2C-85.81%2C33.68&amp;layer=mapnik&amp;marker=33.6598%2C-85.8316"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section" style="background:var(--bg-dark);color:var(--white);text-align:center">
+    <div class="container">
+      <h2 style="color:var(--white);margin-bottom:1rem">Ready for a Clear Picture of Your Roof?</h2>
+      <p style="color:rgba(255,255,255,0.85);max-width:600px;margin:0 auto 1.5rem">Don't wait for the next storm to reveal problems. Schedule a professional roof inspection in Anniston today.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary" style="font-size:1.1rem;padding:1rem 2rem">Call Now — {phoneDisplay}</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2>Roof Inspection <span>Questions</span></h2>
+        <p>Real answers to what Anniston homeowners ask most.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How long does a professional roof inspection take?</summary>
+          <div class="faq-body">Most residential inspections take 45–90 minutes depending on roof size, pitch, accessibility, and whether an attic inspection is possible. Complex or multi-level roofs may take longer.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How much does a roof inspection cost in Anniston?</summary>
+          <div class="faq-body">Pricing depends on roof size, complexity, and the type of report needed. We provide clear quotes before scheduling. Many homeowners find the cost of a thorough inspection is a fraction of the price of an unexpected repair.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you provide photo documentation?</summary>
+          <div class="faq-body">Yes. Every inspection includes photographic documentation of key findings. These photos are included in your written condition report and are useful for insurance, real estate transactions, or your own records.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Can you help with insurance claims?</summary>
+          <div class="faq-body">Yes. Our storm damage and insurance claim inspections produce clear, professional documentation that can support your claim. We focus on accurate findings — not pressure to file or overstate damage.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How often should I have my roof inspected?</summary>
+          <div class="faq-body">Most experts recommend a professional inspection every 1–2 years, and after any major storm with high winds, hail, or fallen debris. Early detection of small issues can prevent expensive repairs later.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+</Layout>

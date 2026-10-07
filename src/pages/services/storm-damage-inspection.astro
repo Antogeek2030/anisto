@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+12565550199';
+const phoneDisplay = '(256) 555-0199';
+---
+<Layout 
+  title="Storm Damage Roof Inspection in Anniston, AL"
+  description="Post-storm roof inspection in Anniston. Document hail, wind, and impact damage with photos and a clear written report for insurance."
+>
+  <section class="hero" style="padding:4rem 0 3rem">
+    <div class="container">
+      <div class="hero-badge">AFTER STORMS</div>
+      <h1>Storm Damage Inspection <span>in Anniston</span></h1>
+      <p class="hero-sub">Document damage. Support your claim. Protect your home.</p>
+      <p class="hero-desc">Alabama storms can leave hidden damage. Our storm damage inspections identify and document hail, wind, and impact issues so you have the evidence you need.</p>
+      <div class="hero-ctas">
+        <a href={`tel:${phone}`} class="btn btn-primary">Schedule Inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What We Check After a <span>Storm</span></h2>
+      </div>
+      <ul style="max-width:700px;margin:0 auto;display:grid;gap:0.75rem">
+        <li>✓ Granule loss and bruising from hail</li>
+        <li>✓ Lifted, missing, or creased shingles from wind</li>
+        <li>✓ Damaged flashing, ridge caps, and vents</li>
+        <li>✓ Impact points and debris damage</li>
+        <li>✓ Attic signs of water intrusion</li>
+        <li>✓ Photo package suitable for insurance review</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" style="text-align:center">
+    <div class="container">
+      <h2 style="margin-bottom:1rem">Had a Recent Storm?</h2>
+      <p style="color:var(--text-muted);margin-bottom:1.5rem">Don’t wait — early documentation helps protect your claim and your home.</p>
+      <a href={`tel:${phone}`} class="btn btn-primary">Call {phoneDisplay}</a>
+    </div>
+  </section>
+</Layout>
